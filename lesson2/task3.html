@@ -7,7 +7,7 @@
 <body>
 <form name="test" method="post" action="/">
     <p><b>Name</b><br>
-        <input type="text" size="20">
+        <input aria-label="dwerthy" type="text" size="20">
     </p>
     <p><b>Email</b><br>
     <input type="text" size="20px">
@@ -25,8 +25,20 @@
         <input type="month">
     </p>
     <p> <b>Skills and Technologies</b> <br>
-
-    </p>
+    <select>
+<optgroup label="Teach skills">
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="java script">Java Script</option>
+    <option value="git">git</option>
+</optgroup>
+<optgroup label="Soft Skills">
+    <option value="Time management">Time management</option>
+    <option value="Proactivity">Proactivity</option>
+    <option value="Teamwork">Teamwork</option>
+    <option value="Leadership">Leadership</option>
+</optgroup>
+    </select>
     <p><b>Photo</b>  <br>
     <input type="file" name="photo" value="photo">
     </p>
