@@ -1,0 +1,49 @@
+.align-right {
+    text-align: right;
+}
+
+.color-orange {
+    color: orange;
+}
+.first-letter:first-letter {
+    font-size: 30px;
+    color: red;
+}
+.backgraund-green  {
+    font-style: italic;
+    background-color: green ;
+    color: white;
+}
+.list-black {
+    color:black;
+}
+.list-green {
+    color: green;
+}
+.list-grey {
+    color: grey;
+}
+.list-red {
+    color: red;
+}
+table {
+    width: 300px;
+    height: 100px;
+}
+tr:nth-child(1) td,
+tr:nth-child(2) td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+tr:not(:nth-child(1))  td,
+tr:not(:nth-child(2))  td {
+    color: white;
+    background: green;
+    text-align: center;
+}
+tr td:first-child {
+    background: white;
+    color: orange;
+    text-align: left;
+}
