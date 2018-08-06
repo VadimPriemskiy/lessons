@@ -1,0 +1,11 @@
+.google {
+    color: #666;
+}
+.external-link {
+    color:#f70;
+}
+.utf:after {
+    content:"\21f1";
+    display: inline-block;
+
+}

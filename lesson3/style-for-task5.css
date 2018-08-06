@@ -1,0 +1,22 @@
+table  {
+    width: 1000px;
+    height: 200px;
+}
+.backgraund-3n td:nth-child(3) {
+    background: #f2f2de;
+}
+.backgraund-3n td:nth-child(5) {
+    background: #f2f2de;
+}
+.backgraund-3n td:nth-child(7) {
+    background: #f2f2de;
+}
+.backgraund-3n td:nth-child(9) {
+    background: #f2f2de;
+}
+.backgraund-3n tr:nth-child(1) {
+    background: orange;
+}
+tr:nth-child(even) {
+    background: #ddebf7;
+}

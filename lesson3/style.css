@@ -30,19 +30,17 @@ table {
     width: 300px;
     height: 100px;
 }
-tr:nth-child(1) td,
-tr:nth-child(2) td {
+tr.table-tittle td {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
-tr:not(:nth-child(1))  td,
-tr:not(:nth-child(2))  td {
+tr.table-content td {
     color: white;
     background: green;
     text-align: center;
 }
-tr td:first-child {
+tr.table-content td:first-child {
     background: white;
     color: orange;
     text-align: left;
